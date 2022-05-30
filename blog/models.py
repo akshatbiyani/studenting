@@ -7,7 +7,7 @@ class Post(models.Model):
     image = models.ImageField()
     author = models.CharField(max_length=64)
     topic = models.CharField(max_length=64)
-    intro = models.TextField()
+    intro = models.Te0xtField()
     body = models.TextField()
     date_added = models.DateTimeField(auto_now_add=True)
 
