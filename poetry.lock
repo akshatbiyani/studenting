@@ -27,6 +27,19 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-markdownx"
+version = "3.0.1"
+description = "A comprehensive Markdown editor built for Django."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+Django = "*"
+Markdown = "*"
+Pillow = "*"
+
+[[package]]
 name = "markdown"
 version = "3.3.7"
 description = "Python implementation of Markdown."
@@ -68,7 +81,7 @@ python-versions = ">=2"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "7dd328adab51c29f92b1c48c18bc63a8dff63681d0d6902251cb95605e3a9595"
+content-hash = "0723f1fef9fcad51d876975af876b46729b218c7fe042dec7156c58325527f87"
 
 [metadata.files]
 asgiref = [
@@ -78,6 +91,10 @@ asgiref = [
 django = [
     {file = "Django-4.0.4-py3-none-any.whl", hash = "sha256:07c8638e7a7f548dc0acaaa7825d84b7bd42b10e8d22268b3d572946f1e9b687"},
     {file = "Django-4.0.4.tar.gz", hash = "sha256:4e8177858524417563cc0430f29ea249946d831eacb0068a1455686587df40b5"},
+]
+django-markdownx = [
+    {file = "django-markdownx-3.0.1.tar.gz", hash = "sha256:e18e395cad0ade96afbb250a81cad15618e417ac3c0d9c37d964be3d8fd57bcf"},
+    {file = "django_markdownx-3.0.1-py2.py3-none-any.whl", hash = "sha256:f4d8998618c0548bf5349713d805e7440684d70116de0f10413932286c4e375f"},
 ]
 markdown = [
     {file = "Markdown-3.3.7-py3-none-any.whl", hash = "sha256:f5da449a6e1c989a4cea2631aa8ee67caa5a2ef855d551c88f9e309f4634c621"},
