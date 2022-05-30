@@ -7,9 +7,9 @@ authors = ["Vikrant Reddy <vikrantreddy@hotmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 Markdown = "^3.3.7"
-Django = "^4.0.4"
 Pillow = "^9.1.1"
 django-markdownx = "^3.0.1"
+Django = "^4.0.4"
 
 [tool.poetry.dev-dependencies]
 
