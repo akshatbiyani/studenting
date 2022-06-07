@@ -1,0 +1,731 @@
+{%load static%}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Resources for Humans Magazine</title>
+    <meta
+      content="Community Hub of 8,000+ HR leaders. Together, we help each other navigate the new world of work."
+      name="description"
+    />
+    <meta content="Resources for Humans Magazine" property="og:title" />
+    <meta
+      content="Community Hub of 8,000+ HR leaders. Together, we help each other navigate the new world of work."
+      property="og:description"
+    />
+    <meta content="Resources for Humans Magazine" property="twitter:title" />
+    <meta
+      content="Community Hub of 8,000+ HR leaders. Together, we help each other navigate the new world of work."
+      property="twitter:description"
+    />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link
+      href="{% static 'blog/assets-global.website-files.com/61766c42e8e50c0ddf4fbd48/css/lattice-content.431b9821c.min.css' %}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--[if lt IE 9
+      ]><script
+        src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+        type="text/javascript"
+      ></script
+    ><![endif]-->
+    <script type="text/javascript">
+      !(function (o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        (n.className += t + "js"),
+          ("ontouchstart" in o ||
+            (o.DocumentTouch && c instanceof DocumentTouch)) &&
+            (n.className += t + "touch");
+      })(window, document);
+    </script>
+    <link
+      href="https://assets-global.website-files.com/61766c42e8e50c0ddf4fbd48/61fa52a1c8a7f555248e0830_Favicon_32x32.svg"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link
+      href="https://assets-global.website-files.com/61766c42e8e50c0ddf4fbd48/61fa52a50628d811443f0c51_Favicon_256x256.svg"
+      rel="apple-touch-icon"
+    />
+    <meta
+      name="facebook-domain-verification"
+      content="l30w589yvzlrnj9z1vuqkyzr26hhyv"
+    />
+    <script id="jetboost-script" type="text/javascript">
+      window.JETBOOST_SITE_ID = "ckvcid5j70qsa0ut4eqj496bt";
+      (function (d) {
+        var s = d.createElement("script");
+        s.src = "../cdn.jetboost.io/jetboost.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })(document);
+    </script>
+    <script>
+      // Creare's 'Implied Consent' EU Cookie Law Banner v:2.4
+      // Conceived by Robert Kent, James Bavington & Tom Foyster
+      var dropCookie = true;
+      var cookieDuration = 1;
+      var cookieName = "";
+      var cookieValue = "on";
+
+      function createCookie(name, value, days) {
+        if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+          var expires = "; expires=" + date.toGMTString();
+        } else var expires = "";
+        if (window.dropCookie) {
+          document.cookie = name + "=" + value + expires + "; path=/";
+        }
+      }
+
+      function checkCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(";");
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == " ") c = c.substring(1, c.length);
+          if (c.indexOf(nameEQ) == 0)
+            return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+      }
+
+      function eraseCookie(name) {
+        createCookie(name, "", -1);
+      }
+
+      window.onload = function () {
+        if (checkCookie(window.cookieName) != window.cookieValue) {
+          $(".nav-banner").show();
+          getBackground();
+        } else {
+          $(".nav-banner").hide();
+        }
+      };
+
+      function getBackground() {
+        $(".nav-banner").css(
+          "background-color",
+          $(".section.hero").css("background-color")
+        );
+      }
+
+      function remove() {
+        createCookie(
+          window.cookieName,
+          window.cookieValue,
+          window.cookieDuration
+        );
+        $(".nav-banner").hide();
+      }
+    </script>
+
+    <script>
+      !(function () {
+        var analytics = (window.analytics = window.analytics || []);
+        if (!analytics.initialize)
+          if (analytics.invoked)
+            window.console &&
+              console.error &&
+              console.error("Segment snippet included twice.");
+          else {
+            analytics.invoked = !0;
+            analytics.methods = [
+              "trackSubmit",
+              "trackClick",
+              "trackLink",
+              "trackForm",
+              "pageview",
+              "identify",
+              "reset",
+              "group",
+              "track",
+              "ready",
+              "alias",
+              "debug",
+              "page",
+              "once",
+              "off",
+              "on",
+            ];
+            analytics.factory = function (t) {
+              return function () {
+                var e = Array.prototype.slice.call(arguments);
+                e.unshift(t);
+                analytics.push(e);
+                return analytics;
+              };
+            };
+            for (var t = 0; t < analytics.methods.length; t++) {
+              var e = analytics.methods[t];
+              analytics[e] = analytics.factory(e);
+            }
+            analytics.load = function (t, e) {
+              var n = document.createElement("script");
+              n.type = "text/javascript";
+              n.async = !0;
+              n.src =
+                "https://cdn.segment.com/analytics.js/v1/" +
+                t +
+                "/analytics.min.js";
+              var a = document.getElementsByTagName("script")[0];
+              a.parentNode.insertBefore(n, a);
+              analytics._loadOptions = e;
+            };
+            analytics.SNIPPET_VERSION = "4.1.0";
+            analytics.load("f0a8nvxyPnbvHr6hfzXranvjrQjvxKLY");
+            analytics.page();
+          }
+      })();
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("body")
+          .children()
+          .each(function () {
+            $(this).html(
+              $(this)
+                .html()
+                .replace(/&#8232;/g, " ")
+            );
+          });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("body")
+          .children()
+          .each(function () {
+            document.body.innerHTML = document.body.innerHTML.replace(
+              /u2028/g,
+              " "
+            );
+          });
+      });
+    </script>
+
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "../www.googletagmanager.com/gtm5445.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-56FJSTN");
+    </script>
+
+    <script>
+      function ready(callback) {
+        if (document.readyState != "loading") callback();
+        else if (document.addEventListener)
+          document.addEventListener("DOMContentLoaded", callback);
+        else
+          document.attachEvent("onreadystatechange", function () {
+            if (document.readyState == "complete") callback();
+          });
+      }
+      function addNoReferrerNoOpener() {
+        var selector = '[target="_blank"]';
+        var externalLinks = document.querySelectorAll(selector);
+        for (var i in externalLinks) {
+          externalLinks[i].rel = "noreferrer noopener";
+        }
+      }
+      ready(function () {
+        addNoReferrerNoOpener();
+      });
+    </script>
+
+    <script>
+      (function (nonVWOScriptsToExecute, VWO_HARD_TIMEOUT) {
+        window._vwo_evq = window._vwo_evq || [];
+        var queue = window._vwo_evq;
+        for (var i = 0; i < queue.length; i++) {
+          if (queue[i][0] === "rD") {
+            window.willRedirectionOccur = true;
+            break;
+          }
+        }
+        var _vwoOldPush = window._vwo_evq.push;
+        window._vwo_evq.push = function () {
+          var eventData = arguments[0],
+            willRedirectionOccur;
+          if (eventData[0] === "rD") {
+            willRedirectionOccur = eventData[1];
+            window.willRedirectionOccurByVWO = willRedirectionOccur;
+          }
+          _vwoOldPush.apply(window._vwo_evq, [].slice.call(arguments));
+        };
+        var hardLimitTimedout = false;
+        function tryNonVWOTracking(nonVWOScriptsToExecute) {
+          if (
+            (window._vwo_code &&
+              (window._vwo_code.finished() || window._vwo_code.libExecuted)) ||
+            hardLimitTimedout
+          ) {
+            if (!window.willRedirectionOccurByVWO) {
+              clearTimeout(hardLimitTimer);
+              for (var i = 0; i < nonVWOScriptsToExecute.length; i++) {
+                try {
+                  nonVWOScriptsToExecute[i]();
+                } catch (e) {}
+              }
+              return;
+            }
+          }
+          setTimeout(function () {
+            tryNonVWOTracking(nonVWOScriptsToExecute);
+          }, 500);
+        }
+        var hardLimitTimer = setTimeout(function () {
+          hardLimitTimedout = true;
+        }, VWO_HARD_TIMEOUT);
+        tryNonVWOTracking(nonVWOScriptsToExecute);
+      })(
+        [
+          function () {
+            (function (i, s, o, g, r, a, m) {
+              i["GoogleAnalyticsObject"] = r;
+              (i[r] =
+                i[r] ||
+                function () {
+                  (i[r].q = i[r].q || []).push(arguments);
+                }),
+                (i[r].l = 1 * new Date());
+              (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+              a.async = 1;
+              a.src = g;
+              m.parentNode.insertBefore(a, m);
+            })(
+              window,
+              document,
+              "script",
+              "../www.google-analytics.com/analytics.js",
+              "ga"
+            );
+            ga("create", "UA-72133603-2", "auto"); //UA ID would vary as per UA account
+            ga("send", "pageview");
+          },
+        ],
+        5000 /*MAXIMUM TIME IN SECONDS IN WHICH GA CODE WILL EXECUTE ANYWAY*/
+      );
+    </script>
+
+    <script type="text/javascript">
+      window._vwo_code =
+        window._vwo_code ||
+        (function () {
+          var account_id = 368139,
+            settings_tolerance = 2000,
+            library_tolerance = 2500,
+            use_existing_jquery = false,
+            is_spa = 1,
+            hide_element = "body",
+            /* DO NOT EDIT BELOW THIS LINE */
+            f = false,
+            d = document,
+            code = {
+              use_existing_jquery: function () {
+                return use_existing_jquery;
+              },
+              library_tolerance: function () {
+                return library_tolerance;
+              },
+              finish: function () {
+                if (!f) {
+                  f = true;
+                  var a = d.getElementById("_vis_opt_path_hides");
+                  if (a) a.parentNode.removeChild(a);
+                }
+              },
+              finished: function () {
+                return f;
+              },
+              load: function (a) {
+                var b = d.createElement("script");
+                b.src = a;
+                b.type = "text/javascript";
+                b.innerText;
+                b.onerror = function () {
+                  _vwo_code.finish();
+                };
+                d.getElementsByTagName("head")[0].appendChild(b);
+              },
+              init: function () {
+                window.settings_timer = setTimeout(
+                  "_vwo_code.finish()",
+                  settings_tolerance
+                );
+                var a = d.createElement("style"),
+                  b = hide_element
+                    ? hide_element +
+                      "{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}"
+                    : "",
+                  h = d.getElementsByTagName("head")[0];
+                a.setAttribute("id", "_vis_opt_path_hides");
+                a.setAttribute("type", "text/css");
+                if (a.styleSheet) a.styleSheet.cssText = b;
+                else a.appendChild(d.createTextNode(b));
+                h.appendChild(a);
+                this.load(
+                  "https://dev.visualwebsiteoptimizer.com/j.php?a=" +
+                    account_id +
+                    "&u=" +
+                    encodeURIComponent(d.URL) +
+                    "&f=" +
+                    +is_spa +
+                    "&r=" +
+                    Math.random()
+                );
+                return settings_timer;
+              },
+            };
+          window._vwo_settings_timer = code.init();
+          return code;
+        })();
+    </script>
+
+    <meta name="cf-2fa-verify" content="ZRS2jXpdKUd2Mkk" />
+    <style>
+      .media-article-preview:hover h3 {
+        text-decoration: underline;
+      }
+    </style>
+    <link rel="canonical" href="rfh.html" />
+  </head>
+  <body class="body-0 media-page">
+    {% block content %} {% endblock %}
+  </body>
+  <noscript
+    ><iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-56FJSTN"
+      height="0"
+      width="0"
+      style="display: none; visibility: hidden"
+    ></iframe
+  ></noscript>
+
+  <script>
+    if ($(window).innerWidth() <= 1024) {
+      $(".navi-dropdown").attr("data-hover", "false");
+    } else {
+      $(".navi-dropdown").attr("data-hover", "true");
+    }
+  </script>
+  <style>
+    body {
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Cookiebot stylesheet */
+    #CybotCookiebotDialog.CybotCookiebotDialogActive
+      + #CybotCookiebotDialogBodyUnderlay {
+      opacity: 0.42 !important;
+    }
+
+    #CybotCookiebotDialogBodyUnderlay {
+      background-color: #83838f !important;
+    }
+
+    #CybotCookiebotDialog {
+      background-color: #ffffff !important;
+      border-radius: 16px !important;
+      box-shadow: 0px 96px 96px rgba(14, 14, 41, 0.04),
+        0px 48px 48px rgba(14, 14, 41, 0.04),
+        0px 32px 32px rgba(14, 14, 41, 0.04),
+        0px 16px 16px rgba(14, 14, 41, 0.04), 0px 8px 8px rgba(14, 14, 41, 0.04),
+        0px 4px 4px rgba(14, 14, 41, 0.04), 0px 0px 1px rgba(14, 14, 41, 0.24) !important;
+      color: #0e0e29 !important;
+      font-family: "Hellix" !important;
+      font-size: 14px !important;
+      letter-spacing: normal !important;
+      line-height: 1.3 !important;
+    }
+
+    #CybotCookiebotDialog h2 {
+      font-weight: 500 !important;
+      letter-spacing: normal !important;
+      line-height: 1.2 !important;
+      margin-bottom: 8px !important;
+      font-size: 18px !important;
+    }
+
+    #CybotCookiebotDialog *,
+    #CybotCookiebotDialogBodyUnderlay * {
+      font-family: "Hellix" !important;
+      font-size: inherit !important;
+    }
+
+    #CybotCookiebotDialogBodyContent {
+      letter-spacing: normal !important;
+      line-height: 1.4 !important;
+    }
+
+    @media screen and (min-width: 1280px) {
+      #CybotCookiebotDialogNav
+        .CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive {
+        border-width: 2px !important;
+      }
+    }
+
+    #CybotCookiebotDialogNav
+      .CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive {
+      border-bottom-width: 2px !important;
+    }
+
+    #CybotCookiebotDialogNav .CybotCookiebotDialogNavItemLink {
+      font-weight: 500 !important;
+      padding: 20px 16px 18px !important;
+      font-size: 18px !important;
+    }
+
+    #CybotCookiebotDialogTabContent
+      .CybotCookiebotDialogBodyLevelButtonSliderWrapper {
+      height: 32px !important;
+      width: 62px !important;
+    }
+
+    #CybotCookiebotDialog
+      .CookieCard
+      .CybotCookiebotDialogDetailBodyContentCookieContainerButton,
+    #CybotCookiebotDialog
+      .CookieCard
+      .CybotCookiebotDialogDetailBodyContentIABv2Tab {
+      display: flex !important;
+    }
+
+    #CybotCookiebotDialogHeader {
+      display: none !important;
+    }
+
+    #CybotCookiebotDialogPoweredByText {
+      display: none !important;
+    }
+
+    #CybotCookiebotDialog label,
+    button#CybotCookiebotDialogDetailBodyContentCookieContainerUnclassified {
+      font-size: 18px !important;
+      font-weight: 500 !important;
+    }
+
+    #CybotCookiebotDialogTabContent
+      .CybotCookiebotDialogDetailBulkConsentCount {
+      background-color: #e1ebeb !important;
+      color: #046663 !important;
+      height: 24px !important;
+      min-width: 24px !important;
+      border-radius: 24px !important;
+      text-align: center !important;
+    }
+
+    #CybotCookiebotDialogFooter
+      #CybotCookiebotDialogBodyLevelButtonCustomize
+      .CybotCookiebotDialogArrow {
+      border-width: 1.5px 1.5px 0 0 !important;
+      height: 8px !important;
+      margin-left: 8px !important;
+      margin-top: 4px !important;
+      width: 8px !important;
+    }
+
+    .CybotCookiebotDialogDetailBodyContentCookieContainerButton:before,
+    .CybotCookiebotDialogDetailBodyContentIABv2Tab:before {
+      border-width: 1.5px 1.5px 0 0 !important;
+      height: 8px !important;
+      width: 8px !important;
+    }
+
+    #CybotCookiebotDialogDetailBodyContentCookieContainerTypes
+      .CybotCookiebotDialogDetailBodyContentCookieProvider {
+      font-weight: 600 !important;
+      font-size: 13px !important;
+      text-transform: uppercase !important;
+      letter-spacing: 0.06em !important;
+    }
+
+    #CybotCookiebotDialog .CybotExternalLinkArrow {
+      margin-left: 8px !important;
+      width: 10px !important;
+      opacity: 0.5 !important;
+      top: 2px !important;
+      position: relative !important;
+    }
+
+    #CybotCookiebotDialogDetailBodyContentCookieContainerTypes
+      .CybotCookiebotDialogDetailBodyContentCookieInfoTitle {
+      font-weight: 600 !important;
+    }
+
+    #CybotCookiebotDialog b {
+      font-weight: 600 !important;
+    }
+
+    #CybotCookiebotDialog
+      .CookieCard
+      .CybotCookiebotDialogDetailBodyContentCookieContainerButton,
+    #CybotCookiebotDialog
+      .CookieCard
+      .CybotCookiebotDialogDetailBodyContentIABv2Tab {
+      width: 100% !important;
+    }
+
+    #CybotCookiebotDialogTabContent
+      .CybotCookiebotDialogDetailBulkConsentCount {
+      font-weight: 600 !important;
+    }
+
+    #CybotCookiebotDialogFooter #CybotCookiebotDialogBodyLevelButtonCustomize,
+    #CybotCookiebotDialogFooter
+      #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection,
+    #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
+      background-color: #f0f0f5 !important;
+      border-color: transparent !important;
+      color: #0e0e29 !important;
+      font-size: 18px !important;
+      font-weight: 500 !important;
+    }
+
+    #CybotCookiebotDialogFooter
+      #CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+      background-color: #046663 !important;
+      border-color: transparent !important;
+      color: #ffffff !important;
+      font-size: 18px !important;
+      font-weight: 500 !important;
+    }
+
+    #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
+      border: none !important;
+      border-radius: 4px !important;
+      padding: 14px 24px !important;
+    }
+
+    #CybotCookiebotDialogTabContent
+      .CybotCookiebotDialogDetailBulkConsentCount {
+      font-size: 14px !important;
+    }
+
+    #CybotCookiebotDialogTabContent .CybotCookiebotDialogBodyLevelButtonSlider {
+      background-color: #83838f !important;
+      transition: background-color 0.3s !important;
+    }
+
+    #CybotCookiebotDialogTabContent
+      input[type="checkbox"][disabled]:checked
+      + .CybotCookiebotDialogBodyLevelButtonSlider {
+      background-color: rgba(131, 131, 143, 0.3) !important;
+    }
+
+    #CybotCookiebotDialogTabContent
+      input:checked
+      + .CybotCookiebotDialogBodyLevelButtonSlider {
+      background-color: #046663 !important;
+    }
+
+    #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton:hover {
+      opacity: 1 !important;
+      filter: saturate(1.5) !important;
+    }
+
+    /* Flip buttons on mobile?
+@media only screen and (max-width: 600px) {
+#CybotCookiebotDialogFooter #CybotCookiebotDialogBodyButtonsWrapper {
+    flex-direction: column!important;
+}
+}
+*/
+
+    @media screen and (min-width: 1280px) {
+      #CybotCookiebotDialogBodyContent {
+        padding: 24px 40px !important;
+      }
+
+      #CybotCookiebotDialogDetailBodyContentTextAbout {
+        padding: 24px 40px !important;
+      }
+
+      #CybotCookiebotDialog
+        .CookieCard
+        .CybotCookiebotDialogDetailBodyContentCookieTypeIntro {
+        padding-left: 36px !important;
+      }
+    }
+
+    #CybotCookiebotDialogDetailBodyContentCookieContainerTypes
+      .CybotCookiebotDialogDetailBodyContentCookieGroup:not(.open):hover {
+      background-color: rgb(225 235 235 / 50%);
+    }
+
+    #CybotCookiebotDialogDetailBodyContentCookieContainerTypes
+      .CybotCookiebotDialogDetailBodyContentCookieInfo {
+      background-color: rgb(225 235 235 / 50%) !important;
+      border: none !important;
+      border-radius: 12px !important;
+    }
+
+    #CybotCookiebotDialogDetailFooter {
+      color: #83838f !important;
+    }
+
+    @media screen and (min-width: 1280px) {
+      #CybotCookiebotDialog #CybotCookiebotDialogFooter {
+        padding: 16px;
+      }
+    }
+
+    .CybotCookiebotDialogDetailBodyContentCookieContainerButton:before,
+    .CybotCookiebotDialogDetailBodyContentIABv2Tab:before {
+      margin-right: 16px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      #CybotCookiebotDialog
+        .CookieCard
+        .CybotCookiebotDialogDetailBodyContentCookieTypeIntro {
+        padding-left: 27px !important;
+        padding-right: 62px !important;
+      }
+    }
+
+    @media screen and (min-width: 601px) {
+      #CybotCookiebotDialog
+        .CybotCookiebotDialogBodyLevelButtonSliderWrapper
+        input:focus-visible
+        + span,
+      #CybotCookiebotDialog :focus-visible {
+        outline: none !important;
+        background-color: #e1ebeb !important;
+      }
+    }
+
+    #CybotCookiebotDialog
+      .CybotCookiebotScrollContainer
+      > div:first-of-type::-webkit-scrollbar-track {
+      background: #f0f0f5 !important;
+      border-radius: 4px !important;
+    }
+
+    #CybotCookiebotDialog
+      .CybotCookiebotScrollContainer
+      > div:first-of-type::-webkit-scrollbar-thumb {
+      background: #83838f !important;
+      border-radius: 4px !important;
+    }
+
+    #CybotCookiebotDialogDetailBodyContentCookieContainerTypes
+      .CybotCookiebotDialogDetailBodyEmptyCategoryMessage {
+      border: none !important;
+      background-color: rgb(225 235 235 / 50%) !important;
+      color: #046663 !important;
+    }
+  </style>
+</html>

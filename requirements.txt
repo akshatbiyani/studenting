@@ -1,0 +1,23 @@
+asgiref @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/22/46/4d/e9d170f76cad59b81e4568f6b37cce88f46df63c197e476a1020862182/asgiref-3.5.2-py3-none-any.whl
+boto3 @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/0f/24/07/0589c37099916bb86102cb697a4adbfca552b6307c4b4e9ca9e982e604/boto3-1.24.2-py3-none-any.whl
+botocore @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/14/a1/1e/263a0dea0343732657fa361303fdb1b12ff581604901e8e9a991d5e5ab/botocore-1.27.2-py3-none-any.whl
+dj-database-url @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/4d/45/5f/ecd99aa66306968dc0a97beb09e86273947cb94400fddfa1d308d10331/dj_database_url-0.5.0-py2.py3-none-any.whl
+Django @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/bc/eb/c7/9de0e5ba3f75f2216e177fb6788e183cf501da3c89b082ff913a5b3176/Django-4.0.4-py3-none-any.whl
+django-ckeditor==6.4.1
+django-cors-headers @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/7e/98/ea/ecd125cf6ff0f07014bedd92ce9dbed1e746ce824a15c6ea1d68d9adfc/django_cors_headers-3.13.0-py3-none-any.whl
+django-heroku @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/c8/20/07/fd67b6237f5ae8074f4bde6487d3ad0f6694a4839efea9854078cffbf3/django_heroku-0.3.1-py2.py3-none-any.whl
+django-js-asset==2.0.0
+django-markdownx @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/12/cb/d5/8333df00f49f01324ffb19986c3211ad427816d2d41585a8c0998fcf94/django_markdownx-3.0.1-py2.py3-none-any.whl
+django-storages @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/24/bd/34/39d15110c1f6a84c8275e9c54b3cd4f413fff0b9863e78411891bc70c1/django_storages-1.12.3-py3-none-any.whl
+jmespath @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/87/8c/2d/3639ff8ed5b6cd44b0a1ee64aa2eeda83c838ff9dc8b6c9f8f9dd15244/jmespath-1.0.0-py3-none-any.whl
+Markdown @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/d0/a4/6e/be41805affb285f0d69e9684ea751cddcd71a6b9dbbf9b2373a33b1510/Markdown-3.3.7-py3-none-any.whl
+Pillow @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/9b/66/15/da469288caae7480b9480a467c75cba1a969178cab3e5856d7cfdb4e3f/Pillow-9.1.1-cp310-cp310-win_amd64.whl
+psycopg2 @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/12/04/46/faee961478866aad853f4f8d4401c01c994f024b1976e3112a1fcb8fc9/psycopg2-2.9.3-cp310-cp310-win_amd64.whl
+python-dateutil @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/39/9b/3b/576da7c854551d780528d75132c98882925e44de0aecf8a31a4bea379c/python_dateutil-2.8.2-py2.py3-none-any.whl
+s3transfer @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/0e/24/22/7464d9dae2df7bfc453292d5de7a9de83533dcd0a60300e2741625a7c8/s3transfer-0.6.0-py3-none-any.whl
+six @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/89/b2/f8/fd92b6d5daa0f8889429b2fc67ec21eedc5cae5d531ee2853828ced6c7/six-1.16.0-py2.py3-none-any.whl
+sqlparse @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/10/f5/22/c9c991a71e27c4d8f69907d92cce74a369cbb3183dc4a6d27e2ae4ab0b/sqlparse-0.4.2-py3-none-any.whl
+studenting==0.1.0
+tzdata @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/cb/cf/58/d3781360e8d88c03434141c34bb31c6a69dd4113aacf419a5fc992aac4/tzdata-2022.1-py2.py3-none-any.whl
+urllib3 @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/88/1c/d5/a55ed0245e5d7cd3a9f40dd75733644cbf7b7d94a6c521eb6c027a326c/urllib3-1.26.9-py2.py3-none-any.whl
+whitenoise @ file:///C:/Users/Vikrant%20Reddy/AppData/Local/pypoetry/Cache/artifacts/39/03/50/ad1176a013bab2448267984096fb10e586d64f3dbc5da1ea1bf59171ec/whitenoise-6.2.0-py3-none-any.whl
