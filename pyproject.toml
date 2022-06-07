@@ -5,7 +5,7 @@ description = ""
 authors = ["Vikrant Reddy <vikrantreddy@hotmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "3.9.6"
 Markdown = "^3.3.7"
 Pillow = "^9.1.1"
 django-markdownx = "^3.0.1"
