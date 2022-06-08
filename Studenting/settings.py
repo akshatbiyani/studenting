@@ -15,7 +15,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 import os
 from pathlib import Path
 import django_heroku
-django_heroku.settings(locals(),staticfiles=False)    
+# django_heroku.settings(locals())    
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -59,7 +59,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
-    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'Studenting.urls'
@@ -86,17 +85,17 @@ WSGI_APPLICATION = 'Studenting.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': f"{BASE_DIR}/db.sqlite3",
+    }
+}
 
-ALLOWED_HOSTS = ['.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
-import dj_database_url
-DATABASES = {'default': dj_database_url.config(conn_max_age=600, ssl_require=True)}
+# import dj_database_url
+# DATABASES = {'default': dj_database_url.config(conn_max_age=600, ssl_require=True)}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -132,34 +131,34 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-# STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = 'static/'
 
-# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-# MEDIA_URL = 'media/'    
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = 'media/'    
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+# DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AWS_ACCESS_KEY_ID = 'AKIA2M7FIWXTYSRLV3AN'
-AWS_SECRET_ACCESS_KEY = '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'
+# AWS_ACCESS_KEY_ID = 'AKIA2M7FIWXTYSRLV3AN'
+# AWS_SECRET_ACCESS_KEY = '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'
 
-AWS_STORAGE_BUCKET_NAME = 'studenting'
-AWS_S3_CUSTOM_DOMAIN = 'd3lqc3ardjzmli.cloudfront.net'
+# AWS_STORAGE_BUCKET_NAME = 'studenting'
+# AWS_S3_CUSTOM_DOMAIN = 'd3lqc3ardjzmli.cloudfront.net'
 
-AWS_LOCATION = 'static'
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# AWS_LOCATION = 'static'
+# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
-STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{AWS_LOCATION}/'
+# STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{AWS_LOCATION}/'
 
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'static'),
 # ]
 
-PUBLIC_MEDIA_LOCATION = 'media'
-MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{PUBLIC_MEDIA_LOCATION}/'
+# PUBLIC_MEDIA_LOCATION = 'media'
+# MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{PUBLIC_MEDIA_LOCATION}/'
 
 CORS_ORIGIN_ALLOW = True
 
